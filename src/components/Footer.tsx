@@ -54,7 +54,7 @@ export const Footer: React.FC<FooterProps> = ({ onBackToTop }) => {
         <span className="mt-2 sm:mt-0">
           Site desenvolvido por{' '}
           <a
-            href="https://mastim.vision"
+            href="https://mastim-eta.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#888888] hover:text-white transition-colors underline-offset-4 hover:underline font-medium"
