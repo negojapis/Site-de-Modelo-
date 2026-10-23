@@ -86,7 +86,7 @@ export const portfolioConfig: PortfolioConfig = {
   images: {
     heroCutout: "/assets/model-cutout.png",
     heroOriginal: "/assets/hero-original.jpg",
-    aboutPortrait: "/Img/2 (10).jpg",
+    aboutPortrait: "/assets/about-portrait.jpg",
   },
   categories: [
     { id: 'todos', label: 'Todos os Ensaios' },
