@@ -86,9 +86,9 @@ export const About: React.FC = () => {
           <div className="lg:col-span-5 flex justify-center">
             <div className="relative max-w-sm w-full bg-[#121212] rounded-sm overflow-hidden shadow-xl aspect-[3/4]">
               <img
-                src="/assets/editorial-portrait.jpg"
-                alt="Retrato editorial de apoio de Julia Mutheu"
-                className="w-full h-full object-cover filter grayscale contrast-105"
+                src={images.aboutPortrait}
+                alt={`Retrato editorial de apoio de ${model.firstName} ${model.lastName}`}
+                className="w-full h-full object-cover"
                 loading="lazy"
               />
               <div className="absolute bottom-3 left-3 bg-black/60 backdrop-blur-xs px-3 py-1 text-[10px] tracking-[0.2em] uppercase text-white/90 font-mono">
