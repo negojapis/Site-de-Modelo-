@@ -51,7 +51,17 @@ export const Footer: React.FC<FooterProps> = ({ onBackToTop }) => {
 
       <div className="max-w-6xl mx-auto mt-10 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-[10px] tracking-[0.15em] uppercase text-[#555555]">
         <span>© {new Date().getFullYear()} {model.firstName} {model.lastName}. Todos os direitos reservados.</span>
-        <span className="mt-2 sm:mt-0">Direção Visual Editorial de Alta Costura</span>
+        <span className="mt-2 sm:mt-0">
+          Site desenvolvido por{' '}
+          <a
+            href="https://mastim.vision"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#888888] hover:text-white transition-colors underline-offset-4 hover:underline font-medium"
+          >
+            mastim.vision
+          </a>
+        </span>
       </div>
     </footer>
   );
