@@ -23,10 +23,10 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
 
       {/* Camada 1: Linha 1 do Nome (JULIA / JANE) - Posicionada atrás da cabeça e óculos da modelo */}
       <div 
-        className="absolute top-[13%] sm:top-[14%] md:top-[15%] left-0 w-full z-10 text-center pointer-events-none"
+        className="absolute top-[13%] sm:top-[14%] md:top-[15%] left-0 w-full px-6 sm:px-12 md:px-20 z-10 text-center pointer-events-none"
         aria-hidden="true"
       >
-        <h1 className="font-editorial text-[#111111] uppercase font-normal tracking-[0.02em] leading-[0.78] text-[18vw] sm:text-[16vw] md:text-[14.5vw] lg:text-[13.5vw]">
+        <h1 className="font-editorial text-[#111111] uppercase font-normal tracking-[0.05em] leading-[0.8] text-[13.5vw] sm:text-[12vw] md:text-[10.5vw] lg:text-[9.6vw] xl:text-[9vw]">
           {model.displayLine1}
         </h1>
       </div>
@@ -45,11 +45,12 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
       </div>
 
       {/* Camada 3: Linha 2 do Nome (MUTHEU) - Atravessa o peito e lapelas com Inversão Tipográfica (mix-blend-mode: difference) */}
+      {/* O 'M' e o último 'U' agora contam com ampla margem e folga lateral, sem nenhum corte */}
       <div 
-        className="absolute bottom-[14%] sm:bottom-[15%] md:bottom-[16%] left-0 w-full z-30 pointer-events-none text-center mix-blend-difference"
+        className="absolute bottom-[14%] sm:bottom-[15%] md:bottom-[16%] left-0 w-full px-6 sm:px-12 md:px-20 z-30 pointer-events-none text-center mix-blend-difference"
         aria-hidden="true"
       >
-        <span className="font-editorial text-white uppercase font-normal tracking-[0.01em] leading-[0.78] block text-[18.5vw] sm:text-[16.5vw] md:text-[15vw] lg:text-[14vw]">
+        <span className="font-editorial text-white uppercase font-normal tracking-[0.02em] leading-[0.8] block text-[13.5vw] sm:text-[12vw] md:text-[10.5vw] lg:text-[9.6vw] xl:text-[9vw]">
           {model.displayLine2}
         </span>
       </div>
